@@ -1,0 +1,103 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+ul,li{list-style:none;} /*ul의 동그라미 빼기*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,button,address{margin:0;padding:0;} /*태그의 기본 여백 삭제*/
+a { text-decoration:none; color:#2d2d2d;}
+
+
+body{
+	/*font-family: 'Noto Sans KR', sans-serif*/ font-size:16px;
+	
+}
+.wrap{
+	width:1200px;
+	margin:0 auto;
+}
+
+label{
+	display:block;
+}
+
+header{
+	padding-top:95px;
+}
+header h1{
+	text-align:center;
+}
+
+/*메뉴 헤더*/
+ul.menu{
+	text-align:center;
+}
+.menu li{
+	display:inline-block;
+	text-align:center;
+	padding:10px 55px 10px 0;
+	font-size:16px;
+}
+
+/*체크리스트*/
+.checkBox{
+	background-color:#f7f7f7;
+}
+.checkBox .wrap{
+	
+}
+.content_header{
+	
+}
+.content_header h2{
+	font-size:24px;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:16px;
+}
+
+.checkList{
+	margin:0 auto;
+	padding:30px 0 0 47px;
+	height:493px;
+	width:558px;
+	background-color:white;
+	/*display:inline-block;*/
+}
+
+label{
+	margin-bottom:10px;
+}
+
+/*
+.left_lisy{
+	background-color:#cc2f5c;
+	float:left;
+	padding:28px 50px;
+}
+.right_list{
+	background-color:#2f42cc; 
+	float:right;
+	padding:28px 50px;
+}*/
+
+.money_results{
+	text-align:center;
+}
+
+.money_results li{
+	
+	margin:50px 0 150px 0;
+	width:300px;
+	height:180px;
+	padding:20px 15px;
+	display:inline-block;
+	background-color:white;
+	text-align:justify;
+	border-radius:5%;
+	vertical-align:top;
+}
+.money_results span{
+	font-weight:600;
+}
+
+footer{
+	height:150px;
+	background-color:#2d2d2d;
+}
